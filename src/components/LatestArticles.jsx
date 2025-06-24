@@ -2,9 +2,12 @@ import React from "react";
 import { ArticleCard } from "./ArticleCard";
 
 export const LatestArticles = () => (
-  <section className="p-8">
-    <h3 className="text-2xl font-semibold my-6 w-full max-w-3xl mx-auto font-playfair text-gray-700">The Latest</h3>
-    <div className="grid gap-8">
+  <section className="px-4 sm:px-6 lg:px-8 py-8">
+    <h3 className="text-xl sm:text-2xl font-semibold mx-auto max-w-3xl font-playfair text-gray-700 mb-8">
+      The Latest
+    </h3>
+
+    <div className="grid gap-10">
       <ArticleCard
         img="/images/article1.png"
         date="April 6, 2025"
@@ -13,6 +16,7 @@ export const LatestArticles = () => (
         summary="Let’s remove some of the mystery around real estate referrals and the associated fees..."
         author="Yasbel Garcia"
       />
+
       <ArticleCard
         img="/images/article2.png"
         date="April 6, 2025"
@@ -21,6 +25,7 @@ export const LatestArticles = () => (
         summary="Tools powered by artificial intelligence (AI) continue to become more powerful..."
         author="Andrew Wan"
       />
+
       <ArticleCard
         img="/images/article3.png"
         date="April 7, 2025"
