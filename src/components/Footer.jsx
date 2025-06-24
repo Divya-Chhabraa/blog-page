@@ -3,14 +3,14 @@ import { HiArrowNarrowRight, HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => (
-  <footer className="bg-[#0F0F14] text-gray-200 mt-24 rounded-t-[56px] px-4 sm:px-10 lg:px-24 pt-14 pb-10 font-grotesk">
+  <footer className="bg-[#0F0F14] text-gray-200 mt-10 rounded-t-[56px] px-4 sm:px-10 lg:px-24 pt-14 pb-10 font-grotesk">
     <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-10">
       <h1 className="flex items-center gap-2 text-lg sm:text-xl font-bold">
         <span className="h-4 w-4 bg-red-500 rounded-full inline-block" />
         ROUNDDIGITAL
       </h1>
 
-      <nav className="flex flex-wrap justify-center gap-6 text-sm sm:text-base lg:gap-10 underline">
+      <nav className="flex flex-wrap justify-center gap-4 text-sm sm:text-base lg:gap-10 underline">
         {["About us", "Services", "Use Cases", "Pricing", "Blog"].map((link) => (
           <a key={link} href="#" className="decoration-gray-400">
             {link}
