@@ -5,7 +5,7 @@ export const HeroSection = () => (
     <img
       src="/images/hero.png"
       alt="Real Estate Conference"
-      className="w-full sm:w-[420px] md:w-[600px] h-auto flex-shrink-0 my-6"
+      className="w-full sm:w-[420px] md:w-[500px] h-auto flex-shrink-0 my-6"
     />
 
     <div className="flex-1 flex flex-col justify-center md:ml-16">
