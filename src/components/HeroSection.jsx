@@ -1,11 +1,11 @@
 import React from "react";
 
 export const HeroSection = () => (
-  <section className="w-full px-4 sm:px-6 lg:px-[100px] flex flex-col md:flex-row items-center gap-8 border-b">
+  <section className="w-full px-4 sm:px-6 lg:px-[100px] flex flex-col md:flex-row items-center gap-8 border-b md py-3">
     <img
       src="/images/hero.png"
       alt="Real Estate Conference"
-      className="w-full sm:w-[420px] md:w-[500px] h-auto flex-shrink-0 my-6"
+      className="w-full sm:w-[420px] md:w-[500px] h-auto flex-shrink-0 my-6 "
     />
 
     <div className="flex-1 flex flex-col justify-center md:ml-16">
@@ -29,7 +29,7 @@ export const HeroSection = () => (
         and stay ahead. Don’t miss these opportunities!
       </p>
 
-      <a href="#" className="mt-5 text-sm md:text-base font-medium font-roboto">
+      <a href="#" className="mt-5 text-sm md:text-base font-medium font-roboto sm:pb-2">
         Keep reading →
       </a>
     </div>
