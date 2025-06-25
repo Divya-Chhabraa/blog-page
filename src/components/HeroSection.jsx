@@ -9,7 +9,7 @@ export const HeroSection = () => (
     />
 
     <div className="flex-1 flex flex-col justify-center md:ml-16">
-      <p className="text-xs font-semibold text-[#E14242] font-roboto tracking-widest">
+      <p className="text-xs font-semibold text-[#FF4A23] font-roboto tracking-widest">
         THE BASICS
       </p>
 
