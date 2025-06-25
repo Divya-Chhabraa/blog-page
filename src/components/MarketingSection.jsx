@@ -10,17 +10,17 @@ const marketing = [
   {
     img: "/images/mkt1.png",
     title: "Drones for Real Estate Photography: How to Get Started + Top Picks",
-    author: "Alice Churcham",
+    author: "Aloun Khountham",
   },
   {
     img: "/images/mkt2.png",
     title: "22 Real Estate Postcard Templates to Generate Leads [Design Guide]",
-    author: "Victor Garcia",
+    author: "Ysabel Garcia",
   },
   {
     img: "/images/mkt3.png",
     title: "The 6 Best Virtual Staging Software + Virtual Staging Guide in 2025",
-    author: "Julia De Runbas",
+    author: "Julia Del Rosario",
   },
 ];
 
@@ -28,17 +28,17 @@ const techReviews = [
   {
     img: "/images/tech1.png",
     title: "15 Best Real Estate Software for Agents in 2025 (+ Pricing)",
-    author: "Julia De Prinsley",
+    author: "Julia Del Rosario",
   },
   {
     img: "/images/tech2.png",
     title: "6 Best Real Estate Investing Apps",
-    author: "Theresa Lanchik",
+    author: "Theresa Landicho",
   },
   {
     img: "/images/tech3.png",
     title: "6 Best Real Estate Website Builders of 2025",
-    author: "Arwen Vela",
+    author: "Andrew Wan",
   },
 ];
 

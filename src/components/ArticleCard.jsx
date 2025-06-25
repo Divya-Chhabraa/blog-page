@@ -14,7 +14,7 @@ export const ArticleCard = ({
   return (
     <div className="flex flex-col md:flex-row gap-6 border-b-2 border-gray-400 last:border-b-0 pb-6 w-full max-w-[50rem] mx-auto font-roboto">
       <div className="flex-1">
-        <p className="text-s md:text-sm text-gray-400">
+        <p className="text-s md:text-sm text-gray-400 pb-2">
           {date} &nbsp;&nbsp;
           <span className={`font-black tracking-widest text-[12px] ${color}`}>{category}</span>
         </p>

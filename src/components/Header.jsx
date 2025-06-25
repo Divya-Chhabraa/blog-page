@@ -29,7 +29,7 @@ export const Header = () => {
       </button>
 
       {open && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-start px-6 py-4 space-y-3 text-base z-50">
+        <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-start px-6 py-4 space-y-3 z-50 ">
           <a href="/" className="hover:underline">About us</a>
           <a href="/" className="hover:underline">Services</a>
           <a href="/" className="hover:underline">Use Cases</a>

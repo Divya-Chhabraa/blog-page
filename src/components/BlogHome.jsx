@@ -4,15 +4,15 @@ import { FeatureVideo }   from "./FeatureVideo";
 
 /* ─── mock data ─── */
 const basics = [
-  { img: "/images/basics1.png", title: "Best Real Estate Company to Work For in 2025", author: "Julia De Prinsley" },
-  { img: "/images/basics2.png", title: "26 Open House Ideas That Will Actually Get You Leads", author: "Matthew Dale" },
-  { img: "/images/basics3.png", title: "How to Choose a Home Inspector: A Playbook for Investors", author: "Shane Tuckerworth" },
+  { img: "/images/basics1.png", title: "Best Real Estate Company to Work For in 2025", author: "Julia Del Rosario" },
+  { img: "/images/basics2.png", title: "26 Open House Ideas That Will Actually Get You Leads", author: "Matthew Avila" },
+  { img: "/images/basics3.png", title: "How to Choose a Home Inspector: A Playbook for Investors", author: "Aloun Khountham" },
 ];
 
 const leadGen = [
-  { img: "/images/lead1.png", title: "The 7 Best CRM for Real Estate in 2025", author: "Alicia Grautham" },
-  { img: "/images/lead2.jpg", title: "The Best 6 Real Estate AI Tools for 2025", author: "Jessica Wells" },
-  { img: "/images/lead3.png", title: "11 Best Real Estate Prospecting Letter Templates for 2025", author: "Amy Paulson" },
+  { img: "/images/lead1.png", title: "The 7 Best CRM for Real Estate in 2025", author: "Aloun Khountham" },
+  { img: "/images/lead2.jpg", title: "The Best 6 Real Estate AI Tools for 2025", author: "Andrew Wan" },
+  { img: "/images/lead3.png", title: "11 Best Real Estate Prospecting Letter Templates for 2025", author: "Andrew Wan" },
 ];
 
 /* --- feature-video data (now split) --- */
