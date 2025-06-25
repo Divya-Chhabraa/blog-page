@@ -3,7 +3,7 @@ import { ArticleCard } from "./ArticleCard";
 
 export const LatestArticles = () => (
   <section className="px-4 sm:px-6 lg:px-8 py-8">
-    <h3 className="text-xl sm:text-2xl font-semibold mx-auto max-w-3xl font-playfair text-gray-700 mb-8">
+    <h3 className="text-2xl sm:text-3xl font-semibold mx-auto max-w-[50rem] font-playfair text-gray-700 mb-8">
       The Latest
     </h3>
 

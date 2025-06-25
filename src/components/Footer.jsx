@@ -46,7 +46,6 @@ export const Footer = () => (
         <form className="flex flex-col sm:flex-row gap-4">
           <input
             type="email"
-            placeholder="Email"
             className="flex-grow bg-transparent border border-gray-400 rounded-md py-3 px-4 text-sm placeholder-gray-400 focus:outline-none"
           />
           <button

@@ -8,7 +8,8 @@ export const ArticleCard = ({
   summary,
   author,
 }) => (
-  <div className="flex flex-col md:flex-row gap-6 border-b pb-6 w-full max-w-3xl mx-auto font-roboto">
+  <div className="flex flex-col md:flex-row gap-6 border-b pb-6 w-full max-w-[50rem] mx-auto font-roboto
+                last:border-b-0 border-b-2 border-gray-400">
     <div className="flex-1">
       <p className="text-s text-gray-400">
         {date} &nbsp;  <span className={"text-xs text-red-400 font-black tracking-widest"}>{category}</span>
@@ -27,7 +28,7 @@ export const ArticleCard = ({
     <img
       src={img}
       alt={title}
-      className="w-full md:w-[320px] lg:w-[400px] h-[200px] sm:h-[250px] sm:w-[400px] sm:mx-auto object-cover flex-shrink-0"
+      className="w-full md:w-[320px] lg:w-[400px] h-[200px] sm:h-[250px] sm:w-[400px] sm:mx-auto object-cover flex-shrink-0 mb-4 border-b:none"
     />
   </div>
 );
