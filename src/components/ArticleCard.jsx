@@ -10,8 +10,8 @@ export const ArticleCard = ({
 }) => (
   <div className="flex flex-col md:flex-row gap-6 border-b pb-6 w-full max-w-3xl mx-auto font-roboto">
     <div className="flex-1">
-      <p className="text-xs text-gray-400">
-        {date} · <span className={"text-red-400"}>{category}</span>
+      <p className="text-s text-gray-400">
+        {date} &nbsp;  <span className={"text-xs text-red-400 font-black tracking-widest"}>{category}</span>
       </p>
 
       <h4 className="mt-4 text-lg md:text-xl font-bold">{title}</h4>
