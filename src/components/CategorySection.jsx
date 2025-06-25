@@ -5,10 +5,10 @@ import { ACards } from "./ACards";
 export const CategorySection = ({ title, articles }) => (
   <section className="mb-10">
     <header className="flex items-center justify-between mb-4">
-      <h3 className="text-3xl font-extrabold my-8 text-red-500 md:text-2xl">{title}</h3>
+      <h2 className="text-4xl font-black my-8 text-[31px] text-[#E14242] md:text-3xl">{title}</h2>
       <a
         href="#"
-        className="text-s font-medium text-gray-500 hover:underline flex items-center gap-1 text-red-500"
+        className="text-s font-bold text-gray-500 hover:underline flex items-center gap-1 text-[#E14242] font-roboto"
       >
         all posts
         <HiOutlineArrowNarrowRight className="h-3.5 w-3.5" />

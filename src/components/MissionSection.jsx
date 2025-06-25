@@ -1,7 +1,7 @@
 import React from "react";
 
 export const MissionSection = () => (
-  <section className="my-16 sm:my-20 px-4 sm:px-6 md:px-10 grid gap-8 md:grid-cols-3">
+  <section className="my-16 sm:my-20 px-4 sm:px-6 md:px-4 grid gap-8 md:grid-cols-3">
     <div className="flex flex-col">
       <h3 className="text-2xl sm:text-3xl font-semibold">Our Mission</h3>
       <a href="#" className="mt-2 sm:mt-3 text-sm font-medium text-red-600 hover:underline">

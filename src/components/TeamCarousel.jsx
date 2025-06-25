@@ -13,7 +13,7 @@ export const TeamCarousel = ({ members }) => {
   return (
     <section className="my-12 sm:my-16">
       <header className="flex items-center justify-between mb-6 px-4 sm:px-0">
-        <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold">Meet Our Team</h3>
+        <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-10">Meet Our Team</h3>
         <span className="text-xs sm:text-sm font-bold text-gray-900">more →</span>
       </header>
 

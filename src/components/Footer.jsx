@@ -3,7 +3,7 @@ import { HiArrowNarrowRight, HiOutlineMail } from "react-icons/hi";
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => (
-  <footer className="bg-[#0F0F14] text-gray-200 mt-10 rounded-t-[56px] px-4 sm:px-10 lg:px-24 pt-14 pb-10 font-grotesk">
+  <footer className="bg-[#191A23] text-gray-200 mt-10 rounded-t-[56px] px-4 sm:px-10 lg:px-24 pt-14 pb-10 font-grotesk mb-20">
     <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-10">
       <h1 className="flex items-center gap-2 text-lg sm:text-xl font-bold">
         <span className="h-4 w-4 bg-red-500 rounded-full inline-block" />
@@ -29,7 +29,7 @@ export const Footer = () => (
 
     <div className="mt-14 grid gap-10 lg:grid-cols-2">
       <div>
-        <span className="inline-block bg-red-600 text-black text-base sm:text-lg font-semibold px-4 py-1.5 rounded-lg mb-6">
+        <span className="inline-block bg-[#E14242] text-black text-base sm:text-lg font-semibold px-4 py-1.5 rounded-lg mb-6">
           Contact us:
         </span>
         <ul className="space-y-2 text-sm sm:text-base leading-relaxed">
@@ -42,11 +42,7 @@ export const Footer = () => (
         </ul>
       </div>
 
-      <div className="bg-[#1C1C22] rounded-xl p-6 flex flex-col justify-center">
-        <p className="mb-4 text-sm sm:text-base">
-          <HiOutlineMail className="inline h-4 w-4 mr-1" />
-          Stay up to date
-        </p>
+      <div className="bg-[#292A32] rounded-xl p-6 flex flex-col justify-center">
         <form className="flex flex-col sm:flex-row gap-4">
           <input
             type="email"
@@ -55,10 +51,9 @@ export const Footer = () => (
           />
           <button
             type="submit"
-            className="bg-red-600 text-black font-medium px-6 py-3 rounded-md flex items-center justify-center gap-2"
+            className="bg-[#E14242] text-black font-medium px-6 py-3 rounded-md flex items-center justify-center gap-2"
           >
-            Subscribe
-            <HiArrowNarrowRight className="h-4 w-4" />
+            Subscribe to news
           </button>
         </form>
       </div>

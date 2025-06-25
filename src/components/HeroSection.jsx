@@ -9,19 +9,25 @@ export const HeroSection = () => (
     />
 
     <div className="flex-1 flex flex-col justify-center md:ml-16">
-      <p className="text-xs font-semibold text-red-600 font-roboto tracking-widest">
+      <p className="text-xs font-semibold text-[#E14242] font-roboto tracking-widest">
         THE BASICS
       </p>
 
-      <h2 className="mt-4 text-2xl md:text-3xl font-bold font-playfair">
+      <h2 className="mt-4 text-2xl md:text-3xl font-extrabold font-playfair">
         10 Must-Attend Real Estate Conferences + Events in 2025
       </h2>
 
       <div className="flex items-center gap-4 pt-4">
         <img src="/images/th.jpeg" className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover" />
-        <p className="text-sm md:text-base font-medium font-roboto">
-          Jolina Aliva | March 4, 2025
-        </p>
+        <p className="text-sm md:text-base font-medium font-roboto flex items-center gap-2">
+  <span>Jolina Aliva</span>
+  <span className="w-px h-3 bg-gray-300" />
+
+  <span className="font-normal text-[12px]">
+    March&nbsp;4,&nbsp;2025
+  </span>
+</p>
+
       </div>
 
       <p className="mt-4 text-sm md:text-base text-gray-600 font-roboto">

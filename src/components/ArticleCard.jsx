@@ -27,7 +27,7 @@ export const ArticleCard = ({
     <img
       src={img}
       alt={title}
-      className="w-full md:w-[320px] lg:w-[500px] h-[200px] sm:h-[250px] object-cover flex-shrink-0"
+      className="w-full md:w-[320px] lg:w-[400px] h-[200px] sm:h-[250px] sm:w-[400px] sm:mx-auto object-cover flex-shrink-0"
     />
   </div>
 );
